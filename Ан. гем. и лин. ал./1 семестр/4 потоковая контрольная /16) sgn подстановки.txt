@@ -1,0 +1,23 @@
+- П = 
+- (i1..in)
+- (j1..jn)
+
+- i_k->j_k
+--ОПР--
+- sgn(П) = sgn(i1..in)*sgn(j1..jn)
+--ТЕОР_2--
+- sgn(f🞄g) = sgn(f)*sgn(g)
+--ДОК-ВО--
+f = 
+(i1..in)
+(j1..jn)
+g = 
+(j1..jn)
+(k1..kn)
+- =>
+- f🞄g = 
+(i1..in)
+(k1..kn)
+- =>
+- sgn(f🞄g) = sgn(i1..in)*sgn(k1..kn) = sgn(i..)*sgn(j..)*sgn(j..)*sgn(k..) = sgn(f)*sgn(g)
+- ЧТД

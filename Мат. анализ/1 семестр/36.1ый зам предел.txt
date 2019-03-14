@@ -1,0 +1,22 @@
+lim_[x→0](sin(x)/x) = 1
+--ДОК-ВО--
+- ½sin(x) < x < ½tg(x) =>
+- 1 < x/sin(x) < 1/cos(x) =>
+- cos(x) < sin(x)/x < 1
+- 1-sin(x)/x < 1-cos(x) = 2sin²(x/2)
+----
+- sin(x) ≤ 1 =>
+- sin²(x) ≤ sin(x) =>
+- 1-sin(x)/x < 2sin²(x/2) < 2sin(x/2) < x
+- 0 < 1 - sin(x)/x < x =>
+- |1 - sin(x)/x| < |x|
+- 1-sin(x)/x < x (при x>0)
+- пусть -π/2 < x < 0 =>
+- 1 - sin(-x)/(-x) < -x,
+- 0 < 1 - sin(x)/x < -x
+- |1 - sin(x)/x| < |-x| = |x|
+- |1 - sin(x)/x| < |x| при |x| < π/2, x≠0
+- При x → 0 |x| → 0 =>
+- 1 − sin(x)/x → 0 =>
+- lim_[x→0] (sin(x)/x) = 1
+--END--

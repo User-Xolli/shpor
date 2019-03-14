@@ -1,0 +1,4 @@
+Пусть начиная с нек-го N xn <= yn <= zn, n > N
+- lim_n→∞(xn) = lim_n→∞(zn) = A,
+- тогда lim_n→∞(yn) = A
+--END--

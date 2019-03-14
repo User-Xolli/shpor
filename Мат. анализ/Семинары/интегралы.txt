@@ -1,0 +1,12 @@
+∫dx/(a²+x²) = 1/a * arctg(x/a)
+--
+∫dx/(a²-x²) = 1/[2a]*ln([a+x]/[a-x])
+--
+∫dx/√(a²-x²) = arcsin(x/a)
+--
+∫dx/√(x²±a²) = ln|x+√(x²±a²)|
+--
+∫dx√(a²-x²) = x/2*√(a²-x²)+a²/2*arcsin(x/a)
+--
+∫dx√(x²±a²) = x/2*√(x²±a²)±a²/2*ln|x+√(x²±a²)|
+--END--
